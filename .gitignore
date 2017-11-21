@@ -1,0 +1,7 @@
+/build/
+/node_modules/
+/soledad/
+.ftpconfig
+.ftp
+Jess.zip
+config.js
