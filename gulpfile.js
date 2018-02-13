@@ -130,7 +130,7 @@ const FTP = {
     directoryPath       : FTPDirectoryPath,
     src                 : dir.build + '**/*',
     base                : dir.build,
-    serverTzDifference  : 6
+    serverTzDifference  : 5
 };
 
 

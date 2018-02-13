@@ -1,0 +1,13 @@
+header {
+  .container.has-banner .header-banner {
+    text-align: right;
+
+    @media screen and (max-width: $desktop) {
+      text-align: center;
+    }
+
+    img {
+      width: 70%;
+    }
+  }
+}

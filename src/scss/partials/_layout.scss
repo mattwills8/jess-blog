@@ -1,0 +1,30 @@
+
+%centerElement {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+%imgCoverContainerWidth {
+  height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+}
+
+%imgContainContainerWidth {
+  height: 100%;
+  min-width: 100%;
+  object-fit: contain;
+}
+
+%pageNoSidebarContent {
+  margin: 25px auto;
+  width: 750px;
+
+  @media screen and (max-width: $desktop) {
+    width: auto;
+  }
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}

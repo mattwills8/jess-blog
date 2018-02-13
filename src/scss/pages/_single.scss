@@ -1,0 +1,26 @@
+
+.single {
+
+  .header-standard, .post {
+    @extend %pageNoSidebarContent;
+  }
+
+  // featured image
+
+  .post-image {
+    height: 80vh;
+
+    img {
+      height: 100%;
+      width: 80%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  // pagination
+
+  .post-pagination {
+    padding: 20px;
+  }
+}
