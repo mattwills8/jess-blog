@@ -4,6 +4,10 @@
 */
 include( get_stylesheet_directory() . '/inc/enqueue.php');
 
+include( get_stylesheet_directory() . '/inc/customizer/jess_settings.php');
+
+include( get_stylesheet_directory() . '/inc/customizer/jess_style.php');
+
 
 /*
 * Theme Support
