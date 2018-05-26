@@ -21,4 +21,14 @@ if ( $query->is_archive() && $query->is_main_query() && !is_admin() ) {
 }
 add_action( 'pre_get_posts', 'jess_change_default_query' );
 
+
+/*
+* Shortcodes
+*/
+include( get_stylesheet_directory() . '/inc/shortcodes/shortcodes.php');
+
+$jess_shortcodes = new Jess_Shortcodes();
+
+add_shortcode( 'post_images', array( $jess_shortcodes ,'post_images_shortcode') );
+
 ?>
